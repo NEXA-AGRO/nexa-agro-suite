@@ -1,0 +1,67 @@
+/* apps/nexa-agro-web/src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --green-dark: #2E7D32;
+  --green-light: #A5D64F;
+
+  --blue-dark: #1B3B5F;
+  --blue-light: #4FB3E3;
+
+  --yellow: #FFD24D;
+  --gray: #E0E0E0;
+
+  --bg-main: #f5f7f4;
+  --surface: #ffffff;
+
+  --text-main: #1B3B5F;
+  --text-soft: #5f6f7c;
+
+  --shadow-main: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container-shell {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.soft-card {
+  background: var(--surface);
+  box-shadow: var(--shadow-main);
+  border: 1px solid var(--border-soft);
+}
+
+.section-title {
+  @apply text-2xl sm:text-3xl font-bold tracking-tight text-[#1B3B5F];
+}
+
+.section-subtitle {
+  @apply mt-2 max-w-2xl text-sm sm:text-base text-[#5f6f7c];
+}
+
+.hero-grid-decoration {
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(165, 214, 79, 0.18) 0, rgba(165, 214, 79, 0.18) 12%, transparent 12%),
+    radial-gradient(circle at 80% 30%, rgba(79, 179, 227, 0.12) 0, rgba(79, 179, 227, 0.12) 10%, transparent 10%),
+    radial-gradient(circle at 30% 70%, rgba(46, 125, 50, 0.08) 0, rgba(46, 125, 50, 0.08) 8%, transparent 8%);
+}
