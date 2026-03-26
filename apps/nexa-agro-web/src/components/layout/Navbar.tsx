@@ -20,10 +20,10 @@ export default function Navbar() {
               <Leaf className="h-6 w-6 text-[#2f6b34]" />
             </div>
             <div className="leading-tight">
-              <p className="text-lg font-extrabold uppercase tracking-wide text-white">
+              <p className="text-lg font-extrabold uppercase tracking-wide">
                 Nexa Agro
               </p>
-              <p className="text-xs text-white/70">Agro tech & commerce</p>
+              <p className="text-xs/70">Agro tech & commerce</p>
             </div>
           </Link>
 
